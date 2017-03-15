@@ -1,0 +1,260 @@
+/* -------------------------------------FONT----------------------------------------*/
+
+/* Webfont: Lato-Black */@font-face {
+    font-family: 'LatoWebBlack';
+    src: url('../fonts/Lato/fonts/Lato-Black.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato/fonts/Lato-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato/fonts/Lato-Black.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato/fonts/Lato-Black.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato/fonts/Lato-Black.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Bold */@font-face {
+    font-family: 'LatoWebBold';
+    src: url('../fonts/Lato/fonts/Lato-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato/fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato/fonts/Lato-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato/fonts/Lato-Bold.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato/fonts/Lato-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Hairline */@font-face {
+    font-family: 'LatoWebHairline';
+    src: url('../fonts/Lato/fonts/Lato-Hairline.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato/fonts/Lato-Hairline.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato/fonts/Lato-Hairline.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato/fonts/Lato-Hairline.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato/fonts/Lato-Hairline.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: LatoLatin-Bold */@font-face {
+    font-family: 'LatoLatinWeb';
+    src: url('../fonts/LatoLatin/fonts/LatoLatin-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/LatoLatin/fonts/LatoLatin-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/LatoLatin/fonts/LatoLatin-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/LatoLatin/fonts/LatoLatin-Bold.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/LatoLatin/fonts/LatoLatin-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+/* --------------------------------------OTHER-----------------------------------------------------*/
+title{
+	font-family: 'LatoLatinWeb';
+}
+
+/* -------------------------------------BACKGOUNDIMAGE----------------------------------------*/
+
+body {
+	background-image : url(../img/background.png);
+}
+
+
+/* -------------------------------------HEADER----------------------------------------*/
+#headercontent {
+	display : flex;
+	background-image: url("../img/banner.png");
+}
+
+#logocontent{
+	display: block;
+	width: 12%;
+	height: 114px;
+}
+
+#logoimage_dprv{
+	padding-top: 8px;
+}
+
+#bannercontent {
+	display: block;
+	width: 68%;
+	height: 114px;
+
+}
+
+#insignecontent {
+	display: block;
+	width: 20%;
+	height: 114px;
+
+}
+
+/* -------------------------------------SECTION----------------------------------------*/
+
+#sectioncontent{
+	display: flex;
+	margin-top: 5%;
+	
+}
+
+#formcontent{
+	display: block;
+	margin-left: 20%;
+	margin-right: 20%;
+	height: 400px;
+	width: 100%;
+	border-radius: 20px 20px 20px 20px;
+	background-image : url(../img/pension.jpg);
+
+}
+
+#formcase{
+	display: block;
+	width: 60%;
+	height: 200px;
+	border: 4px teal solid;
+	margin-top: 50px;
+	margin-left: 250px;
+	font-family: 'LatoLatinWeb';
+	background-color: Snow;
+
+}
+
+/* -------------------------------------FORM---INTO---SECTION----------------------------------*/
+
+
+
+label {
+    display: inline-block;
+    width: 250px;
+    text-align: right;
+
+}
+
+form {
+	margin : 50px auto;
+
+}
+
+.button {
+    padding-left: 300px; 
+    padding-top: 20px;
+}
+
+#numdossier{
+	margin: 20px;
+
+}
+
+#numusager{
+	margin: 20px;
+
+}
+
+#bouton{
+	font-family: 'LatoLatinWeb';
+	background-color: maroon;
+	opacity: 0.8;
+	color: white;
+	height: 30px;
+}
+
+/* -------------------------------------INFO---INTO---SECTION----------------------------------*/
+
+#infocontent{
+	display:inline-block;
+	height: 100px;
+	width: 90%;
+	margin-top: 30px;
+	margin-left:5%; 
+	margin-right:5%;
+
+}
+
+#info{
+	height: 40%;
+	width: 97%;
+	margin-left:1%; 
+	margin-right:1%;
+	background-color: Snow;
+	font-family: 'LatoLatinWeb';
+	text-align: center ;
+	padding-top: 10px
+}
+
+
+/* -------------------------------------ASIDE----------------------------------------*/
+
+#asidecontent{
+	display : flex;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
+}
+
+#asidefirstcolor{
+	display: block;
+	width: 33%;
+	height: 8px;
+	background-color: green;
+
+}
+
+#asidesecondcolor{
+	display: block;
+	width: 34%;
+	height: 8px;
+	background-color: yellow;
+
+}
+
+#asidethirdcolor{
+	display: block;
+	width: 33%;
+	height: 8px;
+	background-color: red;
+
+}
+
+/* -------------------------------------FOOTER----------------------------------------*/
+
+#footercontent{
+	display: flex;
+	margin-top: 3%;
+	background-color: #565656;
+	color: white;
+}
+
+#socialcontent{
+	display: block;
+	width: 33%;
+	height: 100px;
+	border-left: 3px green solid;
+}
+
+#addresscontent{
+	display: block;
+	width: 33%;
+	height: 100px;
+	border-left: 2px yellow solid;
+	
+}
+
+#copyrigthcontent{
+	display: block;
+	width: 34%;
+	height: 100px;
+	border-left: 2px red solid;
+	font-family: 'LatoLatinWeb';
+	padding-left: 5px;
+	padding-right: 2px;
+}
+
+#spancopyrigthcontent{
+	background-color: red;
+	border-radius: 20px 20px 20px 20px;
+	padding-top: 2px;
+}
+
+/* -------------------------------------MEDIA QUERIES----------------------------------------*/
