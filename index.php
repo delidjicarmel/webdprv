@@ -51,7 +51,7 @@
 								echo 'Veuillez renseigner votre numero de dossier et votre nom d\'usager dans le formulaire.';
 						} elseif (isset($_POST['numerodossier']) AND isset($_POST['nomusager'])){
 								try {
-									$bdd = new PDO('mysql:host=127.7.222.2;dbname=dprv;charset=utf8' , 'root' , '' , array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+									$bdd = new PDO('mysql:host=localhost;dbname=dprv;charset=utf8' , 'root' , '' , array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 								} catch (Exception $e)
 								{
 									die ('Error : ' . $e->getMessage());
